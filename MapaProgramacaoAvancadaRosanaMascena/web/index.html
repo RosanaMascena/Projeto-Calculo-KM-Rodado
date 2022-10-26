@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Formulário Calculo Km Rodado</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div class="home-content">
+            <h1 class="title-home">Cálculo KM Rodado</h1>
+            <form class="formulario" method="post" action="./resultado">
+                <label for="modelo-carro">Modelo do Carro:</label><input id="modelo-carro" name="modelo-carro" required />
+                <br>
+                <label for="valor-gasolina">Valor da Gasolina:</label><input id="valor-gasolina" name="valor-gasolina" required />
+                <br>
+                <label for="km-litro">Quantos Km/l o carro faz:</label><input id="km-litro" name="km-litro" required />
+                <br>
+                <label for="media-revisao">Valor médio da revisão a cada 10 mil Km:</label><input id="media-revisao" name="media-revisao" required />
+                <br>
+                <label for="valor-pneus">Valor de 4 pneus que rodam 50 mil Km:</label><input id="valor-pneus" name="valor-pneus" required />
+                <br>
+                <span>Estima-se acréscimo de 15% no cálculo do Km rodado por desgaste e desvalorização do veículo</span>
+                <br>
+                <br>
+                <button class="btn-calc" type="submit">Calcular</button>
+            </form>
+        </div>
+    </body>
+</html>
