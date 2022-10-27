@@ -35,7 +35,7 @@ Prontinho, você estará visualizando o resultado do projeto.
 ## Linguagens e pacotes utilizados:
 
 <div style="display: grid; grid-auto-flow:column; width: fit-content; gap: 0.5rem;">
-    <img height="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
-    <img height="30px" src="https://upload.wikimedia.org/wikipedia/commons/9/98/Apache_NetBeans_Logo.svg" />
-    <img height="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Apache_Tomcat_logo.svg/1280px-Apache_Tomcat_logo.svg.png" />
+    <img title="JAVA" height="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
+    <img title="NetBeans" height="30px" src="https://upload.wikimedia.org/wikipedia/commons/9/98/Apache_NetBeans_Logo.svg" />
+    <img title="Tomcat" height="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Apache_Tomcat_logo.svg/1280px-Apache_Tomcat_logo.svg.png" />
 </div>
