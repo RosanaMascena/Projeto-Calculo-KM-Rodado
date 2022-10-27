@@ -59,7 +59,7 @@ public class ResultadoCalculoKmRodado extends HttpServlet {
             out.println("<link rel=\"stylesheet\" href=\"style.css\">");
             out.println("</head>");
             out.println("<body>");
-            out.println("<div class='content-resultado'><p>Cálculo Km Rodado para o Modelo <span class='span-resultado'>" + modeloCarro + "</span></p>");
+            out.println("<div class='content-resultado'><p class='p-resultado'>Cálculo Km Rodado para o Modelo <span class='span-resultado'>" + modeloCarro + "</span></p>");
             out.println("<p class='p-resultado'>Valor da Gasolina - <span class='span-resultado'>" + valorGasolina + "</span></p>");
             out.println("<p class='p-resultado'>Média do Veículo - <span class='span-resultado'>" + kmLitro + "</span></p>");
             out.println("<p class='p-resultado'>Revisão 10 mil - <span class='span-resultado'>" + valorRevisao + "</span></p>");
